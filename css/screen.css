@@ -275,11 +275,7 @@ input::placeholder {
 */
 
 .c-footer {
-  position: fixed;
-  bottom: 0;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  margin-top: auto;
 }
 
 /*
@@ -312,6 +308,10 @@ input::placeholder {
     Main app wrapper
 */
 .c-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
   max-width: 400px;
   max-height: 800px;
   font-size: 16px;
